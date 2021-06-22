@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  position: relative;
+  background-image: url('https://s2.glbimg.com/hmYaKNhfPkeodVbRDIh90BoC1U4=/smart/e.glbimg.com/og/ed/f/original/2020/03/25/kanye-west-wsj-magazine-interview-1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 9;
+}
+
+.container {
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 90%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3rem;
+  z-index: 99;
+}
+
+.frase {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.quote-button {
+  text-transform: uppercase;
+  padding: 1rem;
+  cursor: pointer;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+}
+
+.quote-button:hover {
+  filter: brightness(0.8);
+  border-style: solid;
+  border-color: white;
+  color: white;
+  background-color: transparent;
+}
