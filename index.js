@@ -1,5 +1,3 @@
-import './style.css';
-
 const apiUrl = 'https://api.kanye.rest/';
 let quote = '';
 
